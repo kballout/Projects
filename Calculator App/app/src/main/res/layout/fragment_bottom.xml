@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomFragment">
+
+    <Button
+        android:id="@+id/subtraction"
+        android:layout_width="102.75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/subtract"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/eight"
+        app:layout_constraintStart_toEndOf="@+id/addition"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/three_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/plusOrMinus"
+        app:layout_constraintStart_toEndOf="@+id/two"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/plusOrMinus"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/plusOrMinus"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/equals"
+        app:layout_constraintStart_toEndOf="@+id/decimal"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/two_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/decimal"
+        app:layout_constraintStart_toEndOf="@+id/one"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/decimal"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/decimal"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/equals"
+        app:layout_constraintStart_toEndOf="@+id/zero"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/nine_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/six"
+        app:layout_constraintStart_toEndOf="@+id/eight"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/six_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/three"
+        app:layout_constraintStart_toEndOf="@+id/five"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/five_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/two"
+        app:layout_constraintStart_toEndOf="@+id/four"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/four_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/one"
+        app:layout_constraintStart_toEndOf="@+id/squareRoot"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/seven_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/four"
+        app:layout_constraintStart_toEndOf="@+id/modulus"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/eight_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/five"
+        app:layout_constraintStart_toEndOf="@+id/seven"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/one_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/zero"
+        app:layout_constraintStart_toEndOf="@+id/clearEntry"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="107.3dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/zero_btn"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/equals"
+        app:layout_constraintStart_toEndOf="@+id/squareRoot"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/modulus"
+        android:layout_width="89dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/percent"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/squareRoot"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/squareRoot"
+        android:layout_width="89dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/squareRoot"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/clearEntry"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/clearEntry"
+        android:layout_width="89dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/clearEntry"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/clear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="89dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/clear"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/division"
+        android:layout_width="102.75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/division"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/modulus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/multiplication"
+        android:layout_width="102.75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/multiply"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/nine"
+        app:layout_constraintStart_toEndOf="@+id/subtraction"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/equals"
+        android:layout_width="322dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/equals"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clear"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="three,plusOrMinus,two,decimal,nine,six,five,four,seven,eight,one,zero,modulus,squareRoot,clearEntry,clear,division,multiplication,subtraction,addition,equals"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-12dp" />
+
+    <Button
+        android:id="@+id/addition"
+        android:layout_width="102.75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="-12dp"
+        android:backgroundTint="#2117AE"
+        android:text="@string/add"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/seven"
+        app:layout_constraintStart_toEndOf="@+id/division"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.5dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="-22dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="-26dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

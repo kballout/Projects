@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(18,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(27,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(28,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(45,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(50,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(74,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(76,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(102,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(132,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Anagram Project\Source.cpp(137,22): warning C4018: '<': signed/unsigned mismatch
+  Anagram Project.vcxproj -> C:\Users\Kassim\Documents\GitHub\CIS-3501\CIS-3501\Anagram Project\Debug\Anagram Project.exe

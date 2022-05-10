@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="seven_btn">7</string>
+    <string name="eight_btn">8</string>
+    <string name="nine_btn">9</string>
+    <string name="percent">%</string>
+    <string name="division">÷</string>
+    <string name="squareRoot">√</string>
+    <string name="four_btn">4</string>
+    <string name="five_btn">5</string>
+    <string name="six_btn">6</string>
+    <string name="multiply">x</string>
+    <string name="clearEntry">CE</string>
+    <string name="one_btn">1</string>
+    <string name="two_btn">2</string>
+    <string name="three_btn">3</string>
+    <string name="subtract">-</string>
+    <string name="clear">C</string>
+    <string name="zero_btn">0</string>
+    <string name="decimal">.</string>
+    <string name="plusOrMinus">+/-</string>
+    <string name="add">+</string>
+    <string name="equals">=</string>
+</resources>
